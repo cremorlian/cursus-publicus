@@ -1,0 +1,10 @@
+[package]
+name = "cp-shell"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+cp-core = { path = "../core" }
+embedded-io = "=0.7.1"
